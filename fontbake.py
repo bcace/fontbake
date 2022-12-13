@@ -9,11 +9,13 @@ class Font(object):
 
 
 fonts = [
-    Font('hack14x26', 14, 26, 2048, 32)
+    Font('hack11x20', 11, 20, 2048, 32),
+    Font('hack12x24', 12, 24, 2048, 32),
+    Font('hack14x28', 14, 28, 2048, 32),
 ]
 
 
-c_file = open('./entorama/entorama/raster.c', 'w')
+c_file = open('../entorama/entorama/raster.c', 'w')
 c_file.write("""#include "raster.h"
 #include <stdlib.h>
 
@@ -42,7 +44,7 @@ static Raster *_fill_raster(Raster *raster, unsigned short *code) {
 """)
 
 
-h_file = open('./entorama/entorama/raster.h', 'w')
+h_file = open('../entorama/entorama/raster.h', 'w')
 h_file.write("""#ifndef raster_h
 #define raster_h
 
