@@ -9,9 +9,14 @@ class Font(object):
 
 
 fonts = [
-    Font('hack11x20', 11, 20, 2048, 32),
-    Font('hack12x24', 12, 24, 2048, 32),
-    Font('hack14x28', 14, 28, 2048, 32),
+    Font('inconsolata7x14', 7, 14, 2048, 32),
+    Font('inconsolata8x16', 8, 16, 2048, 32),
+    Font('inconsolata9x16', 9, 16, 2048, 32),
+    Font('inconsolata10x18', 10, 18, 2048, 32),
+    Font('inconsolata11x22', 11, 22, 2048, 32),
+    Font('inconsolata13x26', 13, 26, 2048, 32),
+    Font('inconsolata15x28', 15, 28, 2048, 32),
+    Font('inconsolata17x30', 17, 30, 2048, 32),
 ]
 
 
